@@ -1,0 +1,184 @@
+body {
+  background: #ADD8E6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to bottom right, #4e54c8, #ADD8E6);
+  color: #fff;
+  padding: 0;
+  width: 100%;
+  height: 130px;
+  border-bottom: 2px solid #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
+.discover-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.discover-text {
+  margin-top: 5px;
+}
+
+#logoimg {
+  max-height: 30%;
+  max-width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+#discoverimg,
+#shareimg,
+#reviewimg,
+#aboutimg {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 50px;
+}
+
+#shareimg {
+  top: -52px;
+  max-width: 70px;
+}
+
+#reviewimg {
+  top: -65px;
+  max-width: 95px;
+}
+
+#aboutimg {
+  top: -52px;
+  max-width: 70px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.nav-text {
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav {
+  padding-right: 30px;
+}
+
+nav a {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.food-details-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Add some space between sections */
+  padding:30px
+}
+
+.food-details {
+  flex: 1;
+  margin-left: 20%
+}
+
+#food-image {
+  max-width: 350px;
+  height: auto;
+  border: 2px solid #fff;     
+  border-radius: 5px;
+  margin-right: 20%;
+}
+
+.review-section {
+  text-align: center;
+  background-color: #77dced;
+}
+
+.review-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review-item {
+  width: 20%;
+  padding: 10px;
+  margin: 0px;
+  border: 3px solid #007bff;
+  word-wrap: break-word; /* Add this line */
+}
+
+
+.review-item p.comments {
+  margin-top: 10px; /* Adjust top margin as needed */
+}
+
+
+.rating-stars {
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.star {
+  color: #FFD700; /* Star color */
+}
+
+
+h1,
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p,
+li {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+ul li::before {
+  content: "•";
+  margin-right: 5px;
+  color: #007bff;
+}

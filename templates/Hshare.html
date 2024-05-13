@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Hawker Food Sharing</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='Hsharestyle.css') }}"> 
+
+	</head>
+	<header>
+		<div class="container">
+		  <a href="{{ url_for('discover') }}" class="logo"><img id='logoimg' src="{{ url_for('static',filename='logo.png') }}"></a>
+		  <nav>
+			<a href="{{ url_for('discover') }}" class="nav-link discover-link">
+			  <img id="discoverimg" src="{{ url_for('static',filename='discover.png') }}" alt="Discover">
+			  <span class="nav-text">Discover</span>
+			</a>
+			<a href="{{ url_for('share') }}" class="nav-link share-link">
+				<img id="shareimg" src="{{ url_for('static',filename='share.png') }}" alt="Share">
+				<span class="nav-text">Share</span>
+			</a>
+			<a href="{{ url_for('review') }}" class="nav-link review-link">
+			  <img id="reviewimg" src="{{ url_for('static',filename='review.png') }}" alt="Review">
+			  <span class="nav-text">Review</span>
+			</a>
+			<a href="{{ url_for('about') }}" class="nav-link about-link">
+				<img id="aboutimg" src="{{ url_for('static',filename='about.png') }}" alt="About">
+				<span class="nav-text">About</span>
+			  </a>
+		  </nav>
+		  
+		</div>
+	  </header>
+	<body>
+		<h1> Share a Dish!</h1>
+		<form action="{{ url_for('submitted') }}" method='post' enctype="multipart/form-data">
+
+			
+			<table>
+				<tr>
+					<td>Dish Name:</td>
+					<td><input type='text' name='dishName'></td>
+				</tr>
+				<tr>
+					<td>Stall Name:</td>
+					<td><input type='text' name='stallName'></td>
+				</tr>
+				<tr>
+					<td>Location:</td>
+					<td><input type='text' name='location'></td>
+				</tr>
+				<tr>
+					<td>Price:</td>
+					<td><input type='text' name='price'></td>
+				</tr>
+				<tr>
+					<td>Protein(g):</td>
+					<td><input type='text' name='protein'></td>
+				</tr>
+				<tr>
+					<td>Cuisine:</td>
+					<td><input type='text' name='cuisine'></td>
+				</tr>
+				<tr>
+					<td>Image:</td>
+					<td><input type='file' name='image'></td>
+				</tr>
+				<tr>
+					<td><input type='submit' name='submit' value='Submit'></td>
+				</tr>
+			</table>
+		</form>
+	
+	</body>
+</html>

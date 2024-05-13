@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Hawker Food Sharing</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='Haboutstyle.css') }}"> 
+
+	</head>
+	<header>
+		<div class="container">
+		  <a href="{{ url_for('discover') }}" class="logo"><img id='logoimg' src="{{ url_for('static',filename='logo.png') }}"></a>
+		  <nav>
+			<a href="{{ url_for('discover') }}" class="nav-link discover-link">
+			  <img id="discoverimg" src="{{ url_for('static',filename='discover.png') }}" alt="Discover">
+			  <span class="nav-text">Discover</span>
+			</a>
+			<a href="{{ url_for('share') }}" class="nav-link share-link">
+				<img id="shareimg" src="{{ url_for('static',filename='share.png') }}" alt="Share">
+				<span class="nav-text">Share</span>
+			</a>
+			<a href="{{ url_for('review') }}" class="nav-link review-link">
+			  <img id="reviewimg" src="{{ url_for('static',filename='review.png') }}" alt="Review">
+			  <span class="nav-text">Review</span>
+			</a>
+			<a href="{{ url_for('about') }}" class="nav-link about-link">
+				<img id="aboutimg" src="{{ url_for('static',filename='about.png') }}" alt="About">
+				<span class="nav-text">About</span>
+			  </a>
+		  </nav>
+		  
+		</div>
+	  </header>
+	<body>
+		<h1>Your submission has been uploaded!</h1>
+
+
+
+    </body>
+</html>
