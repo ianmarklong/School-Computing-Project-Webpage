@@ -8,3 +8,5 @@ Favourite Hawker Food Sharing Platform
 Create a web application that allows users to discover, share, and review their favourite
 hawker food stalls and dishes. The platform serves as a community-driven hub for food
 enthusiasts to find hidden gems and share their culinary experiences with others
+
+URL: https://stoic-hawker-food-sharing-platform.onrender.com/
