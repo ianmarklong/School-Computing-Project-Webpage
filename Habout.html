@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Hawker Food Sharing</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='Haboutstyle.css') }}"> 
+
+	</head>
+	<header>
+		<div class="container">
+		  <a href="{{ url_for('discover') }}" class="logo"><img id='logoimg' src="{{ url_for('static',filename='logo.png') }}"></a>
+		  <nav>
+			<a href="{{ url_for('discover') }}" class="nav-link discover-link">
+			  <img id="discoverimg" src="{{ url_for('static',filename='discover.png') }}" alt="Discover">
+			  <span class="nav-text">Discover</span>
+			</a>
+			<a href="{{ url_for('share') }}" class="nav-link share-link">
+				<img id="shareimg" src="{{ url_for('static',filename='share.png') }}" alt="Share">
+				<span class="nav-text">Share</span>
+			</a>
+			<a href="{{ url_for('review') }}" class="nav-link review-link">
+			  <img id="reviewimg" src="{{ url_for('static',filename='review.png') }}" alt="Review">
+			  <span class="nav-text">Review</span>
+			</a>
+			<a href="{{ url_for('about') }}" class="nav-link about-link">
+				<img id="aboutimg" src="{{ url_for('static',filename='about.png') }}" alt="About">
+				<span class="nav-text">About</span>
+			  </a>
+		  </nav>
+		  
+		</div>
+	  </header>
+
+	  <body>
+		<div class="container1">
+		  <h1>About Us</h1>
+		  <div class="section">
+			<h2>Our Mission</h2>
+			<p>We are dedicated to providing accurate and unbiased reviews of hawker food across various locations. Our mission is to help food enthusiasts discover new and delicious dishes while supporting local vendors.</p>
+		  </div>
+		  <div class="section">
+			<h2>Our History</h2>
+			<p>Founded in 20XX, our website began as a passion project by a group of friends who shared a love for exploring the vibrant hawker food scene in our city. Frustrated by the lack of comprehensive and reliable reviews online, we decided to create a platform where people could find authentic recommendations and share their own experiences.</p>
+			<p>Over the years, we have grown into a community of food lovers who are passionate about preserving and celebrating the rich culinary heritage of our region.</p>
+		  </div>
+		  <div class="section">
+			<h2>Why We Exist</h2>
+			<p>Our website exists to bridge the gap between hawker food enthusiasts and local vendors. We believe that everyone deserves access to high-quality, affordable food, and we strive to connect people with the best dining experiences our city has to offer.</p>
+			<p>By providing honest and insightful reviews, we aim to empower consumers to make informed choices while supporting small businesses and promoting culinary diversity.</p>
+		  </div>
+		  <div class="section">
+			<h2>Contact Us</h2>
+			<p>If you have any questions, suggestions, or feedback, please feel free to contact us at:</p>
+			<p>Email: info@hawkerfoodreviews.com</p>
+			<p>Phone: +1 (123) 456-7890</p>
+		  </div>
+		</div>
+	  </body>
+</html>

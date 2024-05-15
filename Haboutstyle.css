@@ -1,0 +1,146 @@
+body {
+  background: #ADD8E6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to bottom right, #4e54c8, #ADD8E6); /* Gradient background */
+  color: #fff;
+  padding: 0px;
+  width: 100%;
+  height: 130px;
+  border-bottom: 2px solid #fff; /* Add border to the bottom of the header */
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0px; /* Remove default body margin */
+  padding: 0px;
+}
+
+.discover-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.discover-text {
+  margin-top: 5px; /* Adjust margin as needed */
+}
+
+
+#logoimg {
+  max-height:30%;
+  max-width:30%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#discoverimg {
+  position: absolute;
+  top: -40px; /* Adjust the vertical position of the image */
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 50px; /* Adjust image size */
+}
+
+#shareimg {
+  position: absolute;
+  top: -52px; /* Adjust the vertical position of the image */
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 70px; /* Adjust image size */
+}
+
+#reviewimg {
+  position: absolute;
+  top: -65px; /* Adjust the vertical position of the image */
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 95px; /* Adjust image size */
+}
+
+#aboutimg {
+  position: absolute;
+  top: -52px; /* Adjust the vertical position of the image */
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 70px; /* Adjust image size */
+}
+
+.nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 20px; /* Add margin between links */
+}
+
+
+.nav-text {
+  text-align: center;
+  margin-top: 5px; /* Adjust margin as needed */
+}
+
+nav {
+  padding-right: 30px;
+}
+
+nav a {
+  display: inline-block; /* Change display to inline-block */
+  color: #000000;
+  text-decoration: none;
+  margin-left: 20px; /* Add margin between links */
+  font-size:30px;
+  font-weight:bolder;
+}
+
+nav a:first-child {
+  margin-left: 0; /* Remove margin from the first link */
+}
+
+nav a:hover {
+  color: blue;
+  
+}
+
+
+
+.container1 {
+  background: #fff;
+  padding: 20px;
+  max-width: 800px; /* Set a max-width for the content */
+  margin: 0 auto; /* Center the container */
+  border-radius: 10px; /* Optional: add some border-radius for aesthetics */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for aesthetics */
+  text-align: center; /* Center align text */
+}
+
+
+h1 {
+  color: #4e54c8;
+}
+
+h2 {
+  color: #007bff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
